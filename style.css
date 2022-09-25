@@ -161,9 +161,22 @@ h4{
 }
 
 /*elements relevant for singup (section 5/6)*/
+.blue-curvy-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .signup-container{
     display: flex;
     margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 25px;
+    height: 300px;
+    width: 500px;
+    /* margin-left: 20%; */
 }
 
 .signup-flexbox{
