@@ -226,10 +226,15 @@ button{
 /*elements relevant for footer (section 6/6)*/
 .footer-container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937
 }
 
 .footer-text{
-    color: red;
+    color: white;
+    padding: 40px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
 
