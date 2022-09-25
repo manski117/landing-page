@@ -36,7 +36,7 @@ a{
 
 }
 
-/*elements relevant for cards (section 2/4)*/
+/*elements relevant for cards (section 3/6)*/
 .card-container{
     display: flex;
     margin-bottom: 20px;
@@ -51,7 +51,7 @@ a{
     flex-direction: column;
 }
 
-/*elements relevant for quote (section 3/4)*/
+/*elements relevant for quote (section 4/6)*/
 .pullquote-container{
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@ a{
     color: red;
 }
 
-/*elements relevant for singup (section 4/4)*/
+/*elements relevant for singup (section 5/6)*/
 .signup-container{
     display: flex;
     margin-bottom: 20px;
@@ -86,7 +86,7 @@ a{
     color: red;
 }
 
-/*elements relevant for footer (section 5/4)*/
+/*elements relevant for footer (section 6/6)*/
 .footer-container{
     display: flex;
 }
