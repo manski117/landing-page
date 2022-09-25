@@ -1,6 +1,6 @@
 /*elements relevant for header (section 1/6)*/
 .header-container{
-    height: 400px;
+    height: 300px;
     align-items: center;
     background-color: #1f2937;
 }
@@ -34,18 +34,51 @@ a{
 /*elements relevant for title (section 2/6)*/
 .blue-box-container{
     display: flex;
+    justify-content: space-between
 }
 
 .blue-box-flexbox{
     display: flex;
+    justify-content: center;
 
 }
 
 .title-container{
-    color: red;
+    color: #f9faf8;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    width: 700px;
+    align-items: center;
+    flex:1 1 0;
 
+}
+
+.dawn{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #e5e7eb;
+    margin-bottom: -15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+h4{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.moon{
+    height: 200px;
+    width: 400px;
+    
+    
 }
 
 /*elements relevant for cards (section 3/6)*/
