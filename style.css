@@ -1,0 +1,48 @@
+.header-container{
+    display: flex;
+}
+
+.header{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* working fine don't touch for a while.  */
+
+img{
+    box-sizing: border-box;
+    height: 88px;
+    width: 88px;
+    object-fit: cover;
+}
+
+.text{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
