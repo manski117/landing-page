@@ -49,7 +49,34 @@ a{
     color: red;
 }
 
+/*elements relevant for singup (section 4/4)*/
+.signup-container{
+    display: flex;
+    margin-bottom: 20px;
+}
 
+.signup-flexbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action{
+    color: red;
+
+}
+
+.signup-details{
+    color: red;
+}
+
+/*elements relevant for footer (section 5/4)*/
+.footer-container{
+    display: flex;
+}
+
+.footer-text{
+    color: red;
+}
 
 
 
