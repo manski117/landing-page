@@ -165,33 +165,63 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 400px;
+    width: auto;
 }
 
 .signup-container{
     display: flex;
     margin-bottom: 20px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #3882f6;
-    border-radius: 25px;
-    height: 300px;
-    width: 500px;
+    /* padding-right: 50px;
+    padding-right: 50px; */
+    border-radius: 5px;
+    height: 150px;
+    width: 800px;
     /* margin-left: 20%; */
 }
 
 .signup-flexbox{
     display: flex;
     flex-direction: column;
+    margin-left: 10%;
 }
 
 .call-to-action{
-    color: red;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
 
 }
 
 .signup-details{
-    color: red;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
 }
+
+.donate{
+    margin-right: 10%;
+    font-size: 24px;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+button{
+    background-color:#3882f6;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 24px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
 
 /*elements relevant for footer (section 6/6)*/
 .footer-container{
@@ -223,7 +253,7 @@ img{
     object-fit: cover;
 }
 
-.text{
+/* .text{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
