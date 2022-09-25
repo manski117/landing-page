@@ -1,6 +1,6 @@
-/*elements relevant for header (section 1/4)*/
+/*elements relevant for header (section 1/6)*/
 .header-container{
-    display: flex;
+    
 }
 
 .header{
@@ -17,6 +17,23 @@ ul{
 a{
     color: red;
     text-decoration: none;
+}
+
+/*elements relevant for title (section 2/6)*/
+.blue-box-container{
+    display: flex;
+}
+
+.blue-box-flexbox{
+    display: flex;
+
+}
+
+.title-container{
+    color: red;
+    display: flex;
+    flex-direction: column;
+
 }
 
 /*elements relevant for cards (section 2/4)*/
